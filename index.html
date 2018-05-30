@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DOM Practice</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+      <div class="container">
+        <h1>Talk to the web page</h1>
+        <p>Click a button to say something to the web page. See what it says back!</p>
+
+        <button class="btn btn-primary" id="hello">Say "Are you hungry?"</button>
+        <button class="btn btn-success" id="goodbye">Say "What do you want to eat?"</button>
+        <button class="btn btn-danger" id="stop">Say "No more fast food!"</button>
+        <button class="btn btn-warning" id="before">Before practice</button>
+        <button class="btn btn-info" id="after">After practice</button>
+        <div class="row" id="start">
+          <div class="col-md-6">
+            <h2>The web page said:</h2>
+            <ul class="unstyled" id="webpage">
+
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <h2>You said back:</h2>
+            <ul class="unstyled" id="user">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
